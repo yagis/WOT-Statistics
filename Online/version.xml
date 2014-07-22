@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<WoTStatistics>
+	<AppVersion>2.5.1.0</AppVersion>
+	<SettingsFileVersion>41</SettingsFileVersion>
+	<TranslationFileVersion>49</TranslationFileVersion>
+	<ScriptFileVersion>12</ScriptFileVersion>
+	<DossierVersion>12</DossierVersion>
+	<WN8ExpectedVersion>19</WN8ExpectedVersion>
+	<RatingVersion>6</RatingVersion>
+	<ActiveDossierUploaderVersion>3.0.6.6</ActiveDossierUploaderVersion>
+</WoTStatistics>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WOT_Stats>
+  <Version>2.1.0.0</Version>
+  <Assemblies>
+    <Assembly Name="WOT.Stats" Version="2.1.0.0"></Assembly>
+    <Assembly Name="WOT.Core" Version="2.1.0.0"></Assembly>
+    <Assembly Name="WOTStats.Reset" Version="2.1.0.0"></Assembly>
+  </Assemblies>
+  <Supporting>
+    <Files>
+      <File Name="Settings.xml" Location=".." Version="0"></File>
+      <File Name="WoT_Stats.chm" Location="..\Help" Version="0"></File>
+      <File Name="ui-bg-tile.jpg" Location="..\Images\Background" Version="0"></File>
+      <File Name="0.png" Location="..\Images\Countries" Version="0"></File>
+      <File Name="1.png" Location="..\Images\Countries" Version="0"></File>
+      <File Name="2.png" Location="..\Images\Countries" Version="0"></File>
+      <File Name="3.png" Location="..\Images\Countries" Version="0"></File>
+      <File Name="4.png" Location="..\Images\Countries" Version="0"></File>
+      <File Name="5.png" Location="..\Images\Countries" Version="0"></File>
+      <File Name="1.png" Location="..\Images\MasterBadge" Version="0"></File>
+      <File Name="2.png" Location="..\Images\MasterBadge" Version="0"></File>
+      <File Name="3.png" Location="..\Images\MasterBadge" Version="0"></File>
+      <File Name="4.png" Location="..\Images\MasterBadge" Version="0"></File>
+    </Files>
+  </Supporting>
+</WOT_Stats>

@@ -1,0 +1,51 @@
+WOT Statistics 2.5
+
+This is the first release after NSaaiman gave this projects in my Hands.
+
+As a beta release, bugs can and will occur. Please focus in this beta on the rewritten mechanics for the ratings.
+
+
+Legend:
+* Bugfix
++ New Feature or improvement
+- Changed behaviour
+
+
+Overall
++ Infrastructure for updates moved to vBAddict.net
++ Compatibility with WoT 0.9.0
++ Installation moved to Windows Installer Technology, resulting in smaller and faster patches
++ Upgrade to DevExpress 12.5
+
+Look and Feel
++ Made Look and Feel the same over the whole Application
++ Added some icons to Buttons
+
+Data
++ New Window to browse and export all tank related data to Excel
++ Added Damage Assisted via Radio and Detracking (available only for Battles/Tanks played since Patch 0.8.8, WG did not track that information in previous versions)
+
+
+Ratings / Efficiency
++ All Ratings are now always visible, no need to select only one
++ Implemented WN8
++ Implemented Table with expected Tank Values for WN8
+- WN4 and WN6 were removed, they are outdated and replaced by WN7.
++ Added vBAddict's Battle Rating which includes Damage Assisted via Radio and Detracking. This is based on old Efficiency Formula. See also: http://www.vbaddict.net/wot.php?do=efficiency
++ Added seperate official Color Scale for BR, WN7 and WN8 (9 colors instead of existing 6 for Eff)
+
+
+Please read this on how to get support or suggest new features:
+http://www.vbaddict.net/support.php
+
+
+
+This is the todo list with some points which did not get finished and get postponed for later updates:
++ Analysis of Battle Results. There is more data like Credits and Criticals available
++ Theme Chooser. Possibility to switch Look and Feel to for example a brighter or even a darker one
++ Switch to Ribbon, which makes the handling more efficient
++ Dashboard. Includes some key parameters as an extract of the Overall Window
++ More Charting types like Bars, Bubbles
++ Adding possibility to download and configure ADU Active Dossier Uploader
++ Adding support for Historical Battles
+

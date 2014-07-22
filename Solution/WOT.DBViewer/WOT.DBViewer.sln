@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WOT.DBViewer", "WOT.DBViewer\WOT.DBViewer.csproj", "{A52FE90C-7107-4700-A1DE-25DA1D2C6A4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A9B133EA-7CC1-4C4A-B9FB-FFABE46872BC}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A52FE90C-7107-4700-A1DE-25DA1D2C6A4B}.Debug|x86.ActiveCfg = Debug|x86
+		{A52FE90C-7107-4700-A1DE-25DA1D2C6A4B}.Debug|x86.Build.0 = Debug|x86
+		{A52FE90C-7107-4700-A1DE-25DA1D2C6A4B}.Release|x86.ActiveCfg = Release|x86
+		{A52FE90C-7107-4700-A1DE-25DA1D2C6A4B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

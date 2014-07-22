@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<WoTStatistics>
+  <Charts>
+    <Chart Name="chart 1" Period="2 Weeks">
+      <Curves>
+        <Curve Name="Win Ratio U.S.S.R  (T)" Category="Win Ratio" Country="U.S.S.R" Class="All" Tier="0" Tank="All" Display="Total" Color="GreenYellow" />
+        <Curve Name="Win Ratio U.S.S.R  (D)" Category="Win Ratio" Country="U.S.S.R" Class="All" Tier="0" Tank="All" Display="Daily" Color="Crimson" />
+      </Curves>
+    </Chart>
+	<Chart Name="Chart 2" Period="1 Year">
+      <Curves>
+        <Curve Name="Win Ratio (T)" Category="Win Ratio" Country="All" Class="All" Tier="0" Tank="All" Display="Total" Color="Yellow" />
+        <Curve Name="Win Ratio (D)" Category="Win Ratio" Country="All" Class="All" Tier="0" Tank="All" Display="Daily" Color="Red" />
+      </Curves>
+    </Chart>
+  </Charts>
+</WoTStatistics>

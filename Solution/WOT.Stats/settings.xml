@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<WorldOfTanks>
+  <Countries>
+    <Country Code="0">U.S.S.R</Country>
+    <Country Code="1">Germany</Country>
+    <Country Code="2">USA</Country>
+    <Country Code="3">China</Country>
+    <Country Code="4">France</Country>
+    <Country Code="5">UK</Country>
+    <Country Code="6">Japan</Country>
+  </Countries>
+  <TankTypes>
+    <TankType Code="SPG">Self Propelled Gun</TankType>
+    <TankType Code="LT">Light Tank</TankType>
+    <TankType Code="MT">Medium Tank</TankType>
+    <TankType Code="HT">Heavy Tank</TankType>
+    <TankType Code="TD">Tank Destroyer</TankType>
+  </TankTypes>
+  <PremiumFlag>
+    <Premium Code="0">Standard/Non-Premium Tank</Premium>
+    <Premium Code="1">Premium Tank</Premium>
+  </PremiumFlag>
+  <Tanks>
+		<Tank Country="3" Code="0" Tier="8" TankType="MT" Premium="1" icon="Ch01_Type59" Active="True" compDescr="49">Type 59</Tank>
+		<Tank Country="3" Code="1" Tier="7" TankType="LT" Premium="1" icon="Ch02_Type62" Active="True" compDescr="305">Type 62</Tank>
+		<Tank Country="3" Code="2" Tier="8" TankType="MT" Premium="1" icon="Ch01_Type59_Gold" Active="False" compDescr="561">Type 59 G</Tank>
+		<Tank Country="3" Code="3" Tier="8" TankType="HT" Premium="1" icon="Ch03_WZ-111" Active="False" compDescr="817">WZ-111</Tank>
+		<Tank Country="3" Code="4" Tier="7" TankType="MT" Premium="0" icon="Ch04_T34_1" Active="True" compDescr="1073">T-34-1</Tank>
+		<Tank Country="3" Code="5" Tier="1" TankType="LT" Premium="0" icon="Ch06_Renault_NC31" Active="True" compDescr="1329">Renault NC-31</Tank>
+		<Tank Country="3" Code="6" Tier="8" TankType="MT" Premium="0" icon="Ch05_T34_2" Active="True" compDescr="1585">T-34-2</Tank>
+		<Tank Country="3" Code="7" Tier="9" TankType="MT" Premium="0" icon="Ch18_WZ-120" Active="True" compDescr="1841">WZ-120</Tank>
+		<Tank Country="3" Code="8" Tier="9" TankType="HT" Premium="0" icon="Ch12_111_1_2_3" Active="True" compDescr="2097">WZ-111 model 1-4</Tank>
+		<Tank Country="3" Code="9" Tier="2" TankType="LT" Premium="0" icon="Ch07_Vickers_MkE_Type_BT26" Active="True" compDescr="2353">Vickers Mk. E Type B</Tank>
+		<Tank Country="3" Code="11" Tier="8" TankType="HT" Premium="0" icon="Ch11_110" Active="True" compDescr="2865">110</Tank>
+		<Tank Country="3" Code="12" Tier="4" TankType="LT" Premium="0" icon="Ch09_M5" Active="True" compDescr="3121">M5A1 Stuart</Tank>
+		<Tank Country="3" Code="13" Tier="7" TankType="LT" Premium="0" icon="Ch16_WZ_131" Active="True" compDescr="3377">WZ-131</Tank>
+		<Tank Country="3" Code="14" Tier="7" TankType="HT" Premium="0" icon="Ch10_IS2" Active="True" compDescr="3633">IS-2</Tank>
+		<Tank Country="3" Code="15" Tier="8" TankType="LT" Premium="0" icon="Ch17_WZ131_1_WZ132" Active="True" compDescr="3889">WZ-132</Tank>
+		<Tank Country="3" Code="16" Tier="10" TankType="MT" Premium="0" icon="Ch19_121" Active="True" compDescr="4145">121</Tank>
+		<Tank Country="3" Code="17" Tier="3" TankType="LT" Premium="0" icon="Ch08_Type97_Chi_Ha" Active="True" compDescr="4401">Type 2597 Chi-Ha</Tank>
+		<Tank Country="3" Code="18" Tier="5" TankType="MT" Premium="0" icon="Ch21_T34" Active="True" compDescr="4657">Type T-34</Tank>
+		<Tank Country="3" Code="19" Tier="6" TankType="LT" Premium="0" icon="Ch15_59_16" Active="True" compDescr="4913">59-16</Tank>
+		<Tank Country="3" Code="20" Tier="6" TankType="MT" Premium="0" icon="Ch20_Type58" Active="True" compDescr="5169">Type 58</Tank>
+		<Tank Country="3" Code="21" Tier="10" TankType="HT" Premium="0" icon="Ch22_113" Active="True" compDescr="5425">113</Tank>
+		<Tank Country="3" Code="250" Tier="8" TankType="MT" Premium="1" icon="Ch14_T34_3" Active="True" compDescr="64049">T-34-3</Tank>
+		<Tank Country="3" Code="251" Tier="7" TankType="MT" Premium="0" icon="Ch04_T34_1_training" Active="False" compDescr="64305">T-34-1</Tank>
+		<Tank Country="3" Code="252" Tier="8" TankType="HT" Premium="1" icon="Ch23_112" Active="True" compDescr="64561">112</Tank>
+		<Tank Country="3" Code="253" Tier="6" TankType="LT" Premium="1" icon="Ch24_Type64" Active="True" compDescr="64817">Type 64</Tank>
+		<Tank Country="1" Code="0" Tier="5" TankType="MT" Premium="0" icon="PzIV" Active="False" compDescr="17">Pz.Kpfw. IV</Tank>
+		<Tank Country="1" Code="1" Tier="6" TankType="SPG" Premium="0" icon="Hummel" Active="True" compDescr="273">Hummel</Tank>
+		<Tank Country="1" Code="2" Tier="7" TankType="HT" Premium="0" icon="PzVI" Active="True" compDescr="529">Tiger I</Tank>
+		<Tank Country="1" Code="3" Tier="2" TankType="LT" Premium="0" icon="Pz35t" Active="True" compDescr="785">Pz.Kpfw. 35 (t)</Tank>
+		<Tank Country="1" Code="4" Tier="5" TankType="TD" Premium="0" icon="StuG_40_AusfG" Active="True" compDescr="1041">StuG III Ausf. G</Tank>
+		<Tank Country="1" Code="5" Tier="7" TankType="MT" Premium="0" icon="PzV" Active="True" compDescr="1297">Panther</Tank>
+		<Tank Country="1" Code="6" Tier="6" TankType="TD" Premium="0" icon="JagdPzIV" Active="True" compDescr="1553">Jagdpanzer IV</Tank>
+		<Tank Country="1" Code="7" Tier="4" TankType="TD" Premium="0" icon="Hetzer" Active="True" compDescr="1809">Hetzer</Tank>
+		<Tank Country="1" Code="8" Tier="2" TankType="LT" Premium="0" icon="PzII" Active="True" compDescr="2065">Pz.Kpfw. II</Tank>
+		<Tank Country="1" Code="9" Tier="6" TankType="HT" Premium="0" icon="VK3601H" Active="True" compDescr="2321">VK 36.01 (H)</Tank>
+		<Tank Country="1" Code="10" Tier="5" TankType="HT" Premium="0" icon="VK3001H" Active="True" compDescr="2577">VK 30.01 (H)</Tank>
+		<Tank Country="1" Code="11" Tier="3" TankType="SPG" Premium="0" icon="Bison_I" Active="True" compDescr="2833">Sturmpanzer I Bison</Tank>
+		<Tank Country="1" Code="12" Tier="1" TankType="LT" Premium="0" icon="Ltraktor" Active="True" compDescr="3089">Leichttraktor</Tank>
+		<Tank Country="1" Code="13" Tier="3" TankType="LT" Premium="0" icon="Pz38t" Active="True" compDescr="3345">Pz.Kpfw. 38 (t)</Tank>
+		<Tank Country="1" Code="14" Tier="2" TankType="TD" Premium="0" icon="PanzerJager_I" Active="True" compDescr="3601">Panzerjäger I</Tank>
+		<Tank Country="1" Code="15" Tier="7" TankType="TD" Premium="0" icon="JagdPanther" Active="True" compDescr="3857">Jagdpanther</Tank>
+		<Tank Country="1" Code="16" Tier="7" TankType="MT" Premium="0" icon="VK3002DB" Active="True" compDescr="4113">VK 30.02 (D)</Tank>
+		<Tank Country="1" Code="17" Tier="4" TankType="MT" Premium="0" icon="PzIII_AusfJ" Active="True" compDescr="4369">Pz.Kpfw. III</Tank>
+		<Tank Country="1" Code="18" Tier="4" TankType="SPG" Premium="0" icon="Sturmpanzer_II" Active="True" compDescr="4625">Sturmpanzer II</Tank>
+		<Tank Country="1" Code="19" Tier="3" TankType="LT" Premium="0" icon="PzIII_A" Active="True" compDescr="4881">Pz.Kpfw. III Ausf. A</Tank>
+		<Tank Country="1" Code="20" Tier="8" TankType="HT" Premium="0" icon="PzVIB_Tiger_II" Active="True" compDescr="5137">Tiger II</Tank>
+		<Tank Country="1" Code="21" Tier="5" TankType="LT" Premium="0" icon="VK1602" Active="True" compDescr="5393">VK 16.02 Leopard</Tank>
+		<Tank Country="1" Code="22" Tier="5" TankType="SPG" Premium="0" icon="Grille" Active="True" compDescr="5649">Grille</Tank>
+		<Tank Country="1" Code="23" Tier="3" TankType="SPG" Premium="0" icon="Wespe" Active="True" compDescr="5905">Wespe</Tank>
+		<Tank Country="1" Code="24" Tier="4" TankType="LT" Premium="0" icon="PzII_Luchs" Active="True" compDescr="6161">Pz.Kpfw. II Luchs</Tank>
+		<Tank Country="1" Code="25" Tier="5" TankType="MT" Premium="0" icon="PzIII_IV" Active="True" compDescr="6417">Pz.Kpfw. III/IV</Tank>
+		<Tank Country="1" Code="26" Tier="3" TankType="TD" Premium="0" icon="G20_Marder_II" Active="True" compDescr="6673">Marder II</Tank>
+		<Tank Country="1" Code="27" Tier="10" TankType="HT" Premium="0" icon="Maus" Active="True" compDescr="6929">Maus</Tank>
+		<Tank Country="1" Code="28" Tier="6" TankType="MT" Premium="0" icon="VK3001P" Active="True" compDescr="7185">VK 30.01 (P)</Tank>
+		<Tank Country="1" Code="29" Tier="9" TankType="HT" Premium="0" icon="VK4502P" Active="True" compDescr="7441">VK 45.02 (P) Ausf. B</Tank>
+		<Tank Country="1" Code="30" Tier="8" TankType="TD" Premium="0" icon="Ferdinand" Active="True" compDescr="7697">Ferdinand</Tank>
+		<Tank Country="1" Code="31" Tier="9" TankType="TD" Premium="0" icon="JagdTiger" Active="True" compDescr="7953">Jagdtiger</Tank>
+		<Tank Country="1" Code="32" Tier="4" TankType="LT" Premium="0" icon="Pz38_NA" Active="True" compDescr="8209">Pz.Kpfw. 38 (t) n.A.</Tank>
+		<Tank Country="1" Code="33" Tier="8" TankType="MT" Premium="0" icon="Panther_II" Active="True" compDescr="8465">Panther II</Tank>
+		<Tank Country="1" Code="34" Tier="9" TankType="SPG" Premium="0" icon="G_Tiger" Active="True" compDescr="8721">G.W. Tiger</Tank>
+		<Tank Country="1" Code="35" Tier="7" TankType="SPG" Premium="0" icon="G_Panther" Active="True" compDescr="8977">G.W. Panther</Tank>
+		<Tank Country="1" Code="36" Tier="10" TankType="SPG" Premium="0" icon="G_E" Active="True" compDescr="9233">G.W. E 100</Tank>
+		<Tank Country="1" Code="37" Tier="10" TankType="HT" Premium="0" icon="E-100" Active="True" compDescr="9489">E 100</Tank>
+		<Tank Country="1" Code="38" Tier="9" TankType="HT" Premium="0" icon="E-75" Active="True" compDescr="9745">E 75</Tank>
+		<Tank Country="1" Code="39" Tier="6" TankType="LT" Premium="0" icon="VK2801" Active="True" compDescr="10001">VK 28.01</Tank>
+		<Tank Country="1" Code="40" Tier="9" TankType="MT" Premium="0" icon="E-50" Active="True" compDescr="10257">E 50</Tank>
+		<Tank Country="1" Code="41" Tier="8" TankType="HT" Premium="0" icon="VK4502A" Active="True" compDescr="10513">VK 45.02 (P) Ausf. A</Tank>
+		<Tank Country="1" Code="42" Tier="7" TankType="HT" Premium="0" icon="PzVI_Tiger_P" Active="True" compDescr="10769">Tiger (P)</Tank>
+		<Tank Country="1" Code="43" Tier="7" TankType="TD" Premium="0" icon="Sturer_Emil" Active="True" compDescr="11025">Pz.Sfl. V</Tank>
+		<Tank Country="1" Code="44" Tier="4" TankType="TD" Premium="0" icon="Marder_III" Active="True" compDescr="11281">Marder 38T</Tank>
+		<Tank Country="1" Code="45" Tier="8" TankType="TD" Premium="0" icon="JagdPantherII" Active="True" compDescr="11537">Jagdpanther II</Tank>
+		<Tank Country="1" Code="46" Tier="6" TankType="TD" Premium="0" icon="Nashorn" Active="True" compDescr="11793">Nashorn</Tank>
+		<Tank Country="1" Code="47" Tier="10" TankType="TD" Premium="0" icon="JagdPz_E100" Active="True" compDescr="12049">Jagdpanzer E 100</Tank>
+		<Tank Country="1" Code="48" Tier="10" TankType="MT" Premium="0" icon="E50_Ausf_M" Active="True" compDescr="12305">E 50 Ausf. M</Tank>
+		<Tank Country="1" Code="49" Tier="3" TankType="LT" Premium="0" icon="PzI_ausf_C" Active="True" compDescr="12561">Pz.Kpfw. I Ausf. C</Tank>
+		<Tank Country="1" Code="50" Tier="2" TankType="LT" Premium="0" icon="PzI" Active="True" compDescr="12817">Pz.Kpfw. I</Tank>
+		<Tank Country="1" Code="51" Tier="3" TankType="LT" Premium="0" icon="Pz_II_AusfG" Active="True" compDescr="13073">Pz.Kpfw. II Ausf. G</Tank>
+		<Tank Country="1" Code="52" Tier="4" TankType="HT" Premium="0" icon="DW_II" Active="True" compDescr="13329">Durchbruchswagen 2</Tank>
+		<Tank Country="1" Code="53" Tier="4" TankType="MT" Premium="0" icon="VK2001DB" Active="True" compDescr="13585">VK 20.01 (D)</Tank>
+		<Tank Country="1" Code="54" Tier="8" TankType="MT" Premium="0" icon="Indien_Panzer" Active="True" compDescr="13841">Indien-Panzer</Tank>
+		<Tank Country="1" Code="55" Tier="6" TankType="MT" Premium="0" icon="VK3002DB_V1" Active="True" compDescr="14097">VK 30.01 (D)</Tank>
+		<Tank Country="1" Code="56" Tier="7" TankType="LT" Premium="0" icon="Auf_Panther" Active="True" compDescr="14353">Aufklärungspanzer Panther</Tank>
+		<Tank Country="1" Code="57" Tier="10" TankType="MT" Premium="0" icon="Leopard1" Active="True" compDescr="14609">Leopard 1</Tank>
+		<Tank Country="1" Code="58" Tier="9" TankType="MT" Premium="0" icon="Pro_Ag_A" Active="True" compDescr="14865">Leopard Prototyp A</Tank>
+		<Tank Country="1" Code="59" Tier="2" TankType="SPG" Premium="0" icon="GW_Mk_VIe" Active="True" compDescr="15121">G.Pz. Mk. VI (e)</Tank>
+		<Tank Country="1" Code="60" Tier="8" TankType="SPG" Premium="0" icon="GW_Tiger_P" Active="True" compDescr="15377">G.W. Tiger (P)</Tank>
+		<Tank Country="1" Code="61" Tier="4" TankType="SPG" Premium="0" icon="Pz_Sfl_IVb" Active="True" compDescr="15633">Pz.Sfl. IVb</Tank>
+		<Tank Country="1" Code="62" Tier="6" TankType="MT" Premium="0" icon="VK3002M" Active="True" compDescr="15889">VK 30.02 (M)</Tank>
+		<Tank Country="1" Code="63" Tier="5" TankType="TD" Premium="0" icon="Pz_Sfl_IVc" Active="True" compDescr="16145">Pz.Sfl. IVc</Tank>
+		<Tank Country="1" Code="64" Tier="9" TankType="TD" Premium="0" icon="Waffentrager_IV" Active="True" compDescr="16401">Waffenträger auf Pz. IV</Tank>
+		<Tank Country="1" Code="65" Tier="8" TankType="TD" Premium="0" icon="RhB_Waffentrager" Active="True" compDescr="16657">Rhm.-Borsig Waffenträger</Tank>
+		<Tank Country="1" Code="66" Tier="10" TankType="TD" Premium="0" icon="Waffentrager_E100" Active="True" compDescr="16913">Waffenträger auf E 100</Tank>
+		<Tank Country="1" Code="67" Tier="3" TankType="MT" Premium="0" icon="Pz_IV_AusfA" Active="True" compDescr="17169">Pz.Kpfw. IV Ausf. A</Tank>
+		<Tank Country="1" Code="68" Tier="4" TankType="MT" Premium="0" icon="Pz_IV_AusfD" Active="True" compDescr="17425">Pz.Kpfw. IV Ausf. D</Tank>
+		<Tank Country="1" Code="70" Tier="4" TankType="TD" Premium="0" icon="G101_StuG_III" Active="True" compDescr="17937">StuG III Ausf. B</Tank>
+		<Tank Country="1" Code="71" Tier="5" TankType="MT" Premium="0" icon="Pz_IV_AusfH" Active="True" compDescr="18193">Pz.Kpfw. IV Ausf. H</Tank>
+		<Tank Country="1" Code="201" Tier="6" TankType="MT" Premium="1" icon="PzV_PzIV" Active="True" compDescr="51473">Pz.Kpfw. V/IV</Tank>
+		<Tank Country="1" Code="202" Tier="3" TankType="LT" Premium="1" icon="PzII_J" Active="True" compDescr="51729">Pz.Kpfw. II Ausf. J</Tank>
+		<Tank Country="1" Code="203" Tier="3" TankType="MT" Premium="1" icon="S35_captured" Active="True" compDescr="51985">Pz.Kpfw. S35 739 (f)</Tank>
+		<Tank Country="1" Code="204" Tier="4" TankType="HT" Premium="1" icon="B-1bis_captured" Active="True" compDescr="52241">Pz.Kpfw. B2 740 (f)</Tank>
+		<Tank Country="1" Code="205" Tier="2" TankType="LT" Premium="1" icon="H39_captured" Active="True" compDescr="52497">Pz.Kpfw. 38H 735 (f)</Tank>
+		<Tank Country="1" Code="211" Tier="6" TankType="MT" Premium="1" icon="PzV_PzIV_ausf_Alfa" Active="True" compDescr="54033">Pz.Kpfw. V/IV Alpha</Tank>
+		<Tank Country="1" Code="212" Tier="8" TankType="HT" Premium="1" icon="Lowe" Active="True" compDescr="54289">Löwe</Tank>
+		<Tank Country="1" Code="213" Tier="5" TankType="MT" Premium="1" icon="T-25" Active="True" compDescr="54545">T-25</Tank>
+		<Tank Country="1" Code="214" Tier="3" TankType="LT" Premium="1" icon="T-15" Active="True" compDescr="54801">T-15</Tank>
+		<Tank Country="1" Code="215" Tier="5" TankType="MT" Premium="1" icon="PzIV_Hydro" Active="True" compDescr="55057">Pz.Kpfw. IV hydrostat.</Tank>
+		<Tank Country="1" Code="216" Tier="8" TankType="TD" Premium="1" icon="JagdTiger_SdKfz_185" Active="True" compDescr="55313">8,8 cm Pak 43 Jagdtiger</Tank>
+		<Tank Country="1" Code="217" Tier="7" TankType="TD" Premium="1" icon="E-25" Active="True" compDescr="55569">E 25</Tank>
+		<Tank Country="1" Code="223" Tier="6" TankType="TD" Premium="1" icon="DickerMax" Active="True" compDescr="57105">Dicker Max</Tank>
+		<Tank Country="1" Code="224" Tier="6" TankType="MT" Premium="1" icon="PzIV_schmalturm" Active="True" compDescr="57361">Pz.Kpfw. IV Schmalturm</Tank>
+		<Tank Country="1" Code="225" Tier="7" TankType="MT" Premium="1" icon="Panther_M10" Active="True" compDescr="57617">Panther/M10</Tank>
+		<Tank Country="1" Code="226" Tier="4" TankType="MT" Premium="0" icon="PzIII_training" Active="False" compDescr="57873">Pz.Kpfw. III</Tank>
+		<Tank Country="1" Code="227" Tier="8" TankType="HT" Premium="0" icon="PzVIB_Tiger_II_training" Active="False" compDescr="58129">Tiger II</Tank>
+		<Tank Country="1" Code="228" Tier="7" TankType="MT" Premium="0" icon="PzV_training" Active="False" compDescr="58385">Panther</Tank>
+		<Tank Country="1" Code="229" Tier="10" TankType="HT" Premium="1" icon="VK7201" Active="False" compDescr="58641">VK 72.01 (K)</Tank>
+		<Tank Country="1" Code="233" Tier="3" TankType="MT" Premium="1" icon="G100_Gtraktor_Krupp" Active="True" compDescr="59665">Großtraktor - Krupp</Tank>
+		<Tank Country="4" Code="1" Tier="3" TankType="MT" Premium="0" icon="D2" Active="True" compDescr="321">D2</Tank>
+		<Tank Country="4" Code="2" Tier="1" TankType="LT" Premium="0" icon="RenaultFT" Active="True" compDescr="577">Renault FT</Tank>
+		<Tank Country="4" Code="3" Tier="2" TankType="SPG" Premium="0" icon="RenaultBS" Active="True" compDescr="833">Renault FT 75 BS</Tank>
+		<Tank Country="4" Code="4" Tier="4" TankType="HT" Premium="0" icon="B1" Active="True" compDescr="1089">B1</Tank>
+		<Tank Country="4" Code="5" Tier="2" TankType="LT" Premium="0" icon="Hotchkiss_H35" Active="True" compDescr="1345">Hotchkiss H35</Tank>
+		<Tank Country="4" Code="6" Tier="2" TankType="LT" Premium="0" icon="D1" Active="True" compDescr="1601">D1</Tank>
+		<Tank Country="4" Code="8" Tier="5" TankType="SPG" Premium="1" icon="_105_leFH18B2" Active="True" compDescr="2113">105 leFH18B2</Tank>
+		<Tank Country="4" Code="9" Tier="3" TankType="TD" Premium="1" icon="FCM_36Pak40" Active="True" compDescr="2369">FCM 36 Pak 40</Tank>
+		<Tank Country="4" Code="10" Tier="6" TankType="HT" Premium="0" icon="ARL_44" Active="True" compDescr="2625">ARL 44</Tank>
+		<Tank Country="4" Code="11" Tier="4" TankType="LT" Premium="0" icon="AMX40" Active="True" compDescr="2881">AMX 40</Tank>
+		<Tank Country="4" Code="12" Tier="8" TankType="HT" Premium="0" icon="AMX_50_100" Active="True" compDescr="3137">AMX 50 100</Tank>
+		<Tank Country="4" Code="13" Tier="3" TankType="SPG" Premium="0" icon="Lorraine39_L_AM" Active="True" compDescr="3393">Lorraine 39L AM</Tank>
+		<Tank Country="4" Code="14" Tier="10" TankType="MT" Premium="0" icon="Bat_Chatillon25t" Active="True" compDescr="3649">Bat.-Châtillon 25 t</Tank>
+		<Tank Country="4" Code="15" Tier="9" TankType="HT" Premium="0" icon="AMX_50_120" Active="True" compDescr="3905">AMX 50 120</Tank>
+		<Tank Country="4" Code="16" Tier="5" TankType="SPG" Premium="0" icon="AMX_105AM" Active="True" compDescr="4161">AMX 13 105 AM mle. 50</Tank>
+		<Tank Country="4" Code="18" Tier="6" TankType="SPG" Premium="0" icon="AMX_13F3AM" Active="True" compDescr="4673">AMX 13 F3 AM</Tank>
+		<Tank Country="4" Code="19" Tier="8" TankType="LT" Premium="0" icon="AMX_13_90" Active="True" compDescr="4929">AMX 13 90</Tank>
+		<Tank Country="4" Code="20" Tier="7" TankType="LT" Premium="0" icon="AMX_13_75" Active="True" compDescr="5185">AMX 13 75</Tank>
+		<Tank Country="4" Code="22" Tier="9" TankType="MT" Premium="0" icon="Lorraine40t" Active="True" compDescr="5697">Lorraine 40 t</Tank>
+		<Tank Country="4" Code="23" Tier="3" TankType="LT" Premium="0" icon="AMX38" Active="True" compDescr="5953">AMX 38</Tank>
+		<Tank Country="4" Code="24" Tier="10" TankType="HT" Premium="0" icon="F10_AMX_50B" Active="True" compDescr="6209">AMX 50 B</Tank>
+		<Tank Country="4" Code="25" Tier="6" TankType="LT" Premium="0" icon="AMX_12t" Active="True" compDescr="6465">AMX 12 t</Tank>
+		<Tank Country="4" Code="26" Tier="5" TankType="HT" Premium="0" icon="BDR_G1B" Active="True" compDescr="6721">BDR G1 B</Tank>
+		<Tank Country="4" Code="27" Tier="7" TankType="HT" Premium="0" icon="AMX_M4_1945" Active="True" compDescr="6977">AMX M4 mle. 45</Tank>
+		<Tank Country="4" Code="28" Tier="7" TankType="SPG" Premium="0" icon="Lorraine155_50" Active="True" compDescr="7233">Lorraine 155 mle. 50</Tank>
+		<Tank Country="4" Code="29" Tier="8" TankType="SPG" Premium="0" icon="Lorraine155_51" Active="True" compDescr="7489">Lorraine 155 mle. 51</Tank>
+		<Tank Country="4" Code="30" Tier="2" TankType="TD" Premium="0" icon="RenaultFT_AC" Active="True" compDescr="7745">Renault FT AC</Tank>
+		<Tank Country="4" Code="32" Tier="3" TankType="TD" Premium="0" icon="RenaultUE57" Active="True" compDescr="8257">Renault UE 57</Tank>
+		<Tank Country="4" Code="38" Tier="4" TankType="TD" Premium="0" icon="Somua_Sau_40" Active="True" compDescr="9793">Somua SAu 40</Tank>
+		<Tank Country="4" Code="39" Tier="5" TankType="TD" Premium="0" icon="S_35CA" Active="True" compDescr="10049">S35 CA</Tank>
+		<Tank Country="4" Code="42" Tier="7" TankType="TD" Premium="0" icon="AMX_AC_Mle1946" Active="True" compDescr="10817">AMX AC mle. 46</Tank>
+		<Tank Country="4" Code="43" Tier="9" TankType="TD" Premium="0" icon="AMX50_Foch" Active="True" compDescr="11073">AMX 50 Foch</Tank>
+		<Tank Country="4" Code="45" Tier="6" TankType="TD" Premium="0" icon="ARL_V39" Active="True" compDescr="11585">ARL V39</Tank>
+		<Tank Country="4" Code="46" Tier="10" TankType="SPG" Premium="0" icon="Bat_Chatillon155_58" Active="True" compDescr="11841">Bat.-Châtillon 155 58</Tank>
+		<Tank Country="4" Code="47" Tier="8" TankType="TD" Premium="0" icon="AMX_AC_Mle1948" Active="True" compDescr="12097">AMX AC mle. 48</Tank>
+		<Tank Country="4" Code="54" Tier="10" TankType="TD" Premium="0" icon="AMX_50Fosh_155" Active="True" compDescr="13889">AMX 50 Foch (155)</Tank>
+		<Tank Country="4" Code="55" Tier="5" TankType="LT" Premium="0" icon="ELC_AMX" Active="True" compDescr="14145">ELC AMX</Tank>
+		<Tank Country="4" Code="56" Tier="9" TankType="SPG" Premium="0" icon="Bat_Chatillon155_55" Active="True" compDescr="14401">Bat.-Châtillon 155 55</Tank>
+		<Tank Country="4" Code="57" Tier="4" TankType="SPG" Premium="0" icon="AMX_Ob_Am105" Active="True" compDescr="14657">AMX 105 AM mle. 47</Tank>
+		<Tank Country="4" Code="250" Tier="8" TankType="HT" Premium="1" icon="FCM_50t" Active="True" compDescr="64065">FCM 50 t</Tank>
+		<Tank Country="0" Code="255" Tier="1" TankType="LT" Premium="0" icon="Observer" Active="False" compDescr="65281">Spectator</Tank>
+		<Tank Country="0" Code="0" Tier="5" TankType="MT" Premium="0" icon="T-34" Active="True" compDescr="1">T-34</Tank>
+		<Tank Country="0" Code="1" Tier="5" TankType="TD" Premium="0" icon="SU-85" Active="True" compDescr="257">SU-85</Tank>
+		<Tank Country="0" Code="2" Tier="7" TankType="HT" Premium="0" icon="IS" Active="True" compDescr="513">IS</Tank>
+		<Tank Country="0" Code="3" Tier="3" TankType="LT" Premium="0" icon="BT-7" Active="True" compDescr="769">BT-7</Tank>
+		<Tank Country="0" Code="4" Tier="2" TankType="LT" Premium="0" icon="BT-2" Active="True" compDescr="1025">BT-2</Tank>
+		<Tank Country="0" Code="5" Tier="5" TankType="HT" Premium="0" icon="KV" Active="False" compDescr="1281">KV</Tank>
+		<Tank Country="0" Code="6" Tier="4" TankType="MT" Premium="0" icon="T-28" Active="True" compDescr="1537">T-28</Tank>
+		<Tank Country="0" Code="7" Tier="7" TankType="SPG" Premium="0" icon="S-51" Active="True" compDescr="1793">S-51</Tank>
+		<Tank Country="0" Code="8" Tier="4" TankType="LT" Premium="0" icon="A-20" Active="True" compDescr="2049">A-20</Tank>
+		<Tank Country="0" Code="9" Tier="7" TankType="TD" Premium="0" icon="SU-152" Active="True" compDescr="2305">SU-152</Tank>
+		<Tank Country="0" Code="10" Tier="6" TankType="MT" Premium="0" icon="T-34-85" Active="True" compDescr="2561">T-34-85</Tank>
+		<Tank Country="0" Code="11" Tier="6" TankType="HT" Premium="0" icon="KV-1s" Active="True" compDescr="2817">KV-1S</Tank>
+		<Tank Country="0" Code="12" Tier="3" TankType="LT" Premium="0" icon="T-46" Active="True" compDescr="3073">T-46</Tank>
+		<Tank Country="0" Code="13" Tier="1" TankType="LT" Premium="0" icon="MS-1" Active="True" compDescr="3329">MS-1</Tank>
+		<Tank Country="0" Code="14" Tier="6" TankType="TD" Premium="0" icon="SU-100" Active="True" compDescr="3585">SU-100</Tank>
+		<Tank Country="0" Code="15" Tier="2" TankType="SPG" Premium="0" icon="SU-18" Active="True" compDescr="3841">SU-18</Tank>
+		<Tank Country="0" Code="16" Tier="8" TankType="SPG" Premium="0" icon="SU-14" Active="True" compDescr="4097">SU-14-2</Tank>
+		<Tank Country="0" Code="17" Tier="8" TankType="MT" Premium="0" icon="T-44" Active="True" compDescr="4353">T-44</Tank>
+		<Tank Country="0" Code="18" Tier="2" TankType="LT" Premium="0" icon="T-26" Active="True" compDescr="4609">T-26</Tank>
+		<Tank Country="0" Code="19" Tier="4" TankType="SPG" Premium="0" icon="SU-5" Active="True" compDescr="4865">SU-5</Tank>
+		<Tank Country="0" Code="20" Tier="2" TankType="TD" Premium="0" icon="AT-1" Active="True" compDescr="5121">AT-1</Tank>
+		<Tank Country="0" Code="21" Tier="8" TankType="HT" Premium="0" icon="IS-3" Active="True" compDescr="5377">IS-3</Tank>
+		<Tank Country="0" Code="22" Tier="6" TankType="SPG" Premium="0" icon="SU-8" Active="True" compDescr="5633">SU-8</Tank>
+		<Tank Country="0" Code="23" Tier="7" TankType="HT" Premium="0" icon="KV-3" Active="True" compDescr="5889">KV-3</Tank>
+		<Tank Country="0" Code="24" Tier="10" TankType="HT" Premium="0" icon="IS-4" Active="True" compDescr="6145">IS-4</Tank>
+		<Tank Country="0" Code="25" Tier="3" TankType="TD" Premium="0" icon="SU-76" Active="True" compDescr="6401">SU-76</Tank>
+		<Tank Country="0" Code="26" Tier="7" TankType="MT" Premium="0" icon="T-43" Active="True" compDescr="6657">T-43</Tank>
+		<Tank Country="0" Code="27" Tier="4" TankType="TD" Premium="0" icon="GAZ-74b" Active="True" compDescr="6913">SU-85B</Tank>
+		<Tank Country="0" Code="28" Tier="10" TankType="HT" Premium="0" icon="IS-7" Active="True" compDescr="7169">IS-7</Tank>
+		<Tank Country="0" Code="29" Tier="8" TankType="TD" Premium="0" icon="ISU-152" Active="True" compDescr="7425">ISU-152</Tank>
+		<Tank Country="0" Code="30" Tier="3" TankType="SPG" Premium="0" icon="SU-26" Active="True" compDescr="7681">SU-26</Tank>
+		<Tank Country="0" Code="31" Tier="9" TankType="MT" Premium="0" icon="T-54" Active="True" compDescr="7937">T-54</Tank>
+		<Tank Country="0" Code="32" Tier="9" TankType="TD" Premium="0" icon="Object_704" Active="True" compDescr="8193">Object 704</Tank>
+		<Tank Country="0" Code="33" Tier="9" TankType="SPG" Premium="0" icon="Object_212" Active="True" compDescr="8449">212A</Tank>
+		<Tank Country="0" Code="34" Tier="10" TankType="SPG" Premium="0" icon="Object_261" Active="True" compDescr="8705">Object 261</Tank>
+		<Tank Country="0" Code="35" Tier="7" TankType="MT" Premium="0" icon="KV-13" Active="True" compDescr="8961">KV-13</Tank>
+		<Tank Country="0" Code="36" Tier="8" TankType="HT" Premium="1" icon="Object252" Active="True" compDescr="9217">IS-6</Tank>
+		<Tank Country="0" Code="37" Tier="4" TankType="LT" Premium="0" icon="T-50" Active="True" compDescr="9473">T-50</Tank>
+		<Tank Country="0" Code="38" Tier="5" TankType="LT" Premium="0" icon="T_50_2" Active="False" compDescr="9729">T-50-2</Tank>
+		<Tank Country="0" Code="39" Tier="8" TankType="TD" Premium="0" icon="SU-101" Active="True" compDescr="9985">SU-101</Tank>
+		<Tank Country="0" Code="40" Tier="7" TankType="TD" Premium="0" icon="SU100M1" Active="True" compDescr="10241">SU-100M1</Tank>
+		<Tank Country="0" Code="41" Tier="6" TankType="HT" Premium="0" icon="KV2" Active="True" compDescr="10497">KV-2</Tank>
+		<Tank Country="0" Code="42" Tier="9" TankType="HT" Premium="0" icon="ST_I" Active="True" compDescr="10753">ST-I</Tank>
+		<Tank Country="0" Code="43" Tier="8" TankType="HT" Premium="0" icon="KV4" Active="True" compDescr="11009">KV-4</Tank>
+		<Tank Country="0" Code="44" Tier="6" TankType="HT" Premium="0" icon="T150" Active="True" compDescr="11265">T-150</Tank>
+		<Tank Country="0" Code="45" Tier="9" TankType="HT" Premium="0" icon="IS8" Active="True" compDescr="11521">IS-8</Tank>
+		<Tank Country="0" Code="46" Tier="5" TankType="HT" Premium="0" icon="KV1" Active="True" compDescr="11777">KV-1</Tank>
+		<Tank Country="0" Code="47" Tier="9" TankType="TD" Premium="0" icon="SU122_54" Active="True" compDescr="12033">SU-122-54</Tank>
+		<Tank Country="0" Code="48" Tier="6" TankType="MT" Premium="0" icon="A43" Active="True" compDescr="12289">A-43</Tank>
+		<Tank Country="0" Code="49" Tier="7" TankType="MT" Premium="0" icon="A44" Active="True" compDescr="12545">A-44</Tank>
+		<Tank Country="0" Code="52" Tier="8" TankType="MT" Premium="0" icon="Object416" Active="True" compDescr="13313">Object 416</Tank>
+		<Tank Country="0" Code="53" Tier="10" TankType="TD" Premium="0" icon="Object268" Active="True" compDescr="13569">Object 268</Tank>
+		<Tank Country="0" Code="54" Tier="10" TankType="MT" Premium="0" icon="T62A" Active="True" compDescr="13825">T-62A</Tank>
+		<Tank Country="0" Code="56" Tier="10" TankType="TD" Premium="0" icon="Object263" Active="True" compDescr="14337">Object 263</Tank>
+		<Tank Country="0" Code="59" Tier="3" TankType="LT" Premium="0" icon="T-70" Active="True" compDescr="15105">T-70</Tank>
+		<Tank Country="0" Code="60" Tier="2" TankType="LT" Premium="0" icon="T-60" Active="True" compDescr="15361">T-60</Tank>
+		<Tank Country="0" Code="61" Tier="10" TankType="MT" Premium="1" icon="Object_907" Active="False" compDescr="15617">Object 907</Tank>
+		<Tank Country="0" Code="62" Tier="4" TankType="LT" Premium="0" icon="T80" Active="True" compDescr="15873">T-80</Tank>
+		<Tank Country="0" Code="63" Tier="7" TankType="SPG" Premium="0" icon="SU14_1" Active="True" compDescr="16129">SU-14-1</Tank>
+		<Tank Country="0" Code="64" Tier="5" TankType="SPG" Premium="0" icon="SU122A" Active="True" compDescr="16385">SU-122A</Tank>
+		<Tank Country="0" Code="65" Tier="6" TankType="LT" Premium="0" icon="MT25" Active="True" compDescr="16641">MT-25</Tank>
+		<Tank Country="0" Code="66" Tier="10" TankType="MT" Premium="0" icon="Object_140" Active="True" compDescr="16897">Object 140</Tank>
+		<Tank Country="0" Code="67" Tier="10" TankType="MT" Premium="0" icon="Object_430" Active="True" compDescr="17153">Object 430</Tank>
+		<Tank Country="0" Code="69" Tier="9" TankType="MT" Premium="0" icon="R104_Object_430_II" Active="True" compDescr="17665">Object 430 Version II</Tank>
+		<Tank Country="0" Code="200" Tier="5" TankType="HT" Premium="1" icon="KV-220" Active="True" compDescr="51201">KV-220 Beta-Test</Tank>
+		<Tank Country="0" Code="201" Tier="5" TankType="MT" Premium="1" icon="Matilda_II_LL" Active="True" compDescr="51457">Matilda IV</Tank>
+		<Tank Country="0" Code="202" Tier="5" TankType="HT" Premium="1" icon="Churchill_LL" Active="True" compDescr="51713">Churchill III</Tank>
+		<Tank Country="0" Code="204" Tier="3" TankType="LT" Premium="1" icon="BT-SV" Active="True" compDescr="52225">BT-SV</Tank>
+		<Tank Country="0" Code="205" Tier="4" TankType="LT" Premium="1" icon="Valentine_LL" Active="True" compDescr="52481">Valentine II</Tank>
+		<Tank Country="0" Code="206" Tier="3" TankType="LT" Premium="1" icon="M3_Stuart_LL" Active="True" compDescr="52737">M3 Light</Tank>
+		<Tank Country="0" Code="207" Tier="4" TankType="MT" Premium="1" icon="A-32" Active="True" compDescr="52993">A-32</Tank>
+		<Tank Country="0" Code="208" Tier="8" TankType="HT" Premium="1" icon="KV-5" Active="True" compDescr="53249">KV-5</Tank>
+		<Tank Country="0" Code="209" Tier="3" TankType="LT" Premium="1" icon="T-127" Active="True" compDescr="53505">T-127</Tank>
+		<Tank Country="0" Code="210" Tier="5" TankType="TD" Premium="1" icon="SU_85I" Active="False" compDescr="53761">SU-85I</Tank>
+		<Tank Country="0" Code="211" Tier="5" TankType="HT" Premium="1" icon="KV-220_action" Active="True" compDescr="54017">KV-220</Tank>
+		<Tank Country="0" Code="212" Tier="3" TankType="TD" Premium="1" icon="SU76I" Active="False" compDescr="54273">SU-76I</Tank>
+		<Tank Country="0" Code="213" Tier="2" TankType="LT" Premium="1" icon="Tetrarch_LL" Active="True" compDescr="54529">Tetrarch</Tank>
+		<Tank Country="0" Code="214" Tier="6" TankType="TD" Premium="1" icon="SU100Y" Active="True" compDescr="54785">SU-100Y</Tank>
+		<Tank Country="0" Code="216" Tier="7" TankType="TD" Premium="1" icon="SU122_44" Active="True" compDescr="55297">SU-122-44</Tank>
+		<Tank Country="0" Code="220" Tier="6" TankType="MT" Premium="0" icon="T-34-85_training" Active="False" compDescr="56321">T-34-85</Tank>
+		<Tank Country="0" Code="221" Tier="3" TankType="LT" Premium="1" icon="LTP" Active="True" compDescr="56577">LTP</Tank>
+		<Tank Country="0" Code="222" Tier="7" TankType="MT" Premium="1" icon="T44_122" Active="False" compDescr="56833">T-44-122</Tank>
+		<Tank Country="0" Code="223" Tier="7" TankType="MT" Premium="1" icon="T44_85" Active="False" compDescr="57089">T-44-85</Tank>
+		<Tank Country="2" Code="0" Tier="5" TankType="HT" Premium="1" icon="T14" Active="True" compDescr="33">T14</Tank>
+		<Tank Country="2" Code="1" Tier="3" TankType="LT" Premium="0" icon="M3_Stuart" Active="True" compDescr="289">M3 Stuart</Tank>
+		<Tank Country="2" Code="2" Tier="1" TankType="LT" Premium="0" icon="T1_Cunningham" Active="True" compDescr="545">T1 Cunningham</Tank>
+		<Tank Country="2" Code="3" Tier="6" TankType="HT" Premium="0" icon="M6" Active="True" compDescr="801">M6</Tank>
+		<Tank Country="2" Code="4" Tier="5" TankType="MT" Premium="0" icon="M4_Sherman" Active="True" compDescr="1057">M4 Sherman</Tank>
+		<Tank Country="2" Code="5" Tier="6" TankType="MT" Premium="0" icon="M4A3E8_Sherman" Active="True" compDescr="1313">M4A3E8 Sherman</Tank>
+		<Tank Country="2" Code="6" Tier="7" TankType="MT" Premium="0" icon="T20" Active="True" compDescr="1569">T20</Tank>
+		<Tank Country="2" Code="7" Tier="2" TankType="LT" Premium="0" icon="M2_lt" Active="True" compDescr="1825">M2 Light Tank</Tank>
+		<Tank Country="2" Code="8" Tier="2" TankType="SPG" Premium="0" icon="T57" Active="True" compDescr="2081">T57</Tank>
+		<Tank Country="2" Code="9" Tier="8" TankType="MT" Premium="0" icon="T23" Active="False" compDescr="2337">T23</Tank>
+		<Tank Country="2" Code="10" Tier="9" TankType="TD" Premium="0" icon="T30" Active="True" compDescr="2593">T30</Tank>
+		<Tank Country="2" Code="11" Tier="8" TankType="HT" Premium="1" icon="T34_hvy" Active="True" compDescr="2849">T34</Tank>
+		<Tank Country="2" Code="12" Tier="4" TankType="MT" Premium="0" icon="M3_Grant" Active="True" compDescr="3105">M3 Lee</Tank>
+		<Tank Country="2" Code="13" Tier="5" TankType="HT" Premium="0" icon="T1_hvy" Active="True" compDescr="3361">T1 Heavy Tank</Tank>
+		<Tank Country="2" Code="14" Tier="3" TankType="SPG" Premium="0" icon="M7_Priest" Active="True" compDescr="3617">M7 Priest</Tank>
+		<Tank Country="2" Code="15" Tier="7" TankType="HT" Premium="0" icon="T29" Active="True" compDescr="3873">T29</Tank>
+		<Tank Country="2" Code="16" Tier="5" TankType="SPG" Premium="0" icon="M41" Active="True" compDescr="4129">M41</Tank>
+		<Tank Country="2" Code="17" Tier="8" TankType="HT" Premium="0" icon="T32" Active="True" compDescr="4385">T32</Tank>
+		<Tank Country="2" Code="18" Tier="4" TankType="SPG" Premium="0" icon="M37" Active="True" compDescr="4641">M37</Tank>
+		<Tank Country="2" Code="19" Tier="3" TankType="MT" Premium="0" icon="M2_med" Active="True" compDescr="4897">M2 Medium Tank</Tank>
+		<Tank Country="2" Code="20" Tier="4" TankType="LT" Premium="0" icon="M5_Stuart" Active="True" compDescr="5153">M5 Stuart</Tank>
+		<Tank Country="2" Code="21" Tier="5" TankType="MT" Premium="0" icon="M7_med" Active="True" compDescr="5409">M7</Tank>
+		<Tank Country="2" Code="22" Tier="2" TankType="MT" Premium="0" icon="T2_med" Active="True" compDescr="5665">T2 Medium Tank</Tank>
+		<Tank Country="2" Code="23" Tier="8" TankType="MT" Premium="0" icon="Pershing" Active="True" compDescr="5921">M26 Pershing</Tank>
+		<Tank Country="2" Code="24" Tier="2" TankType="TD" Premium="0" icon="T18" Active="True" compDescr="6177">T18</Tank>
+		<Tank Country="2" Code="25" Tier="3" TankType="TD" Premium="0" icon="T82" Active="True" compDescr="6433">T82</Tank>
+		<Tank Country="2" Code="27" Tier="5" TankType="TD" Premium="0" icon="M10_Wolverine" Active="True" compDescr="6945">M10 Wolverine</Tank>
+		<Tank Country="2" Code="28" Tier="6" TankType="TD" Premium="0" icon="M36_Slagger" Active="True" compDescr="7201">M36 Jackson</Tank>
+		<Tank Country="2" Code="29" Tier="8" TankType="SPG" Premium="0" icon="M40M43" Active="True" compDescr="7457">M40/M43</Tank>
+		<Tank Country="2" Code="30" Tier="4" TankType="TD" Premium="0" icon="T40" Active="True" compDescr="7713">T40</Tank>
+		<Tank Country="2" Code="31" Tier="7" TankType="SPG" Premium="0" icon="M12" Active="True" compDescr="7969">M12</Tank>
+		<Tank Country="2" Code="32" Tier="8" TankType="TD" Premium="0" icon="T28" Active="True" compDescr="8225">T28</Tank>
+		<Tank Country="2" Code="33" Tier="10" TankType="SPG" Premium="0" icon="T92" Active="True" compDescr="8481">T92</Tank>
+		<Tank Country="2" Code="34" Tier="9" TankType="TD" Premium="0" icon="T95" Active="True" compDescr="8737">T95</Tank>
+		<Tank Country="2" Code="35" Tier="9" TankType="MT" Premium="0" icon="M46_Patton" Active="True" compDescr="8993">M46 Patton</Tank>
+		<Tank Country="2" Code="36" Tier="7" TankType="TD" Premium="0" icon="T25_AT" Active="True" compDescr="9249">T25 AT</Tank>
+		<Tank Country="2" Code="37" Tier="9" TankType="HT" Premium="0" icon="M103" Active="True" compDescr="9505">M103</Tank>
+		<Tank Country="2" Code="38" Tier="5" TankType="LT" Premium="0" icon="M24_Chaffee" Active="True" compDescr="9761">M24 Chaffee</Tank>
+		<Tank Country="2" Code="39" Tier="6" TankType="MT" Premium="0" icon="Sherman_Jumbo" Active="True" compDescr="10017">M4A3E2 Sherman Jumbo</Tank>
+		<Tank Country="2" Code="40" Tier="4" TankType="TD" Premium="0" icon="M8A1" Active="True" compDescr="10273">M8A1</Tank>
+		<Tank Country="2" Code="41" Tier="5" TankType="TD" Premium="0" icon="T49" Active="True" compDescr="10529">T49</Tank>
+		<Tank Country="2" Code="42" Tier="10" TankType="HT" Premium="0" icon="T110" Active="True" compDescr="10785">T110E5</Tank>
+		<Tank Country="2" Code="43" Tier="7" TankType="TD" Premium="0" icon="T25_2" Active="True" compDescr="11041">T25/2</Tank>
+		<Tank Country="2" Code="44" Tier="8" TankType="TD" Premium="0" icon="T28_Prototype" Active="True" compDescr="11297">T28 Prototype</Tank>
+		<Tank Country="2" Code="45" Tier="6" TankType="TD" Premium="0" icon="M18_Hellcat" Active="True" compDescr="11553">M18 Hellcat</Tank>
+		<Tank Country="2" Code="46" Tier="7" TankType="MT" Premium="1" icon="T23E3" Active="True" compDescr="11809">T23E3</Tank>
+		<Tank Country="2" Code="51" Tier="10" TankType="TD" Premium="0" icon="T110E4" Active="True" compDescr="13089">T110E4</Tank>
+		<Tank Country="2" Code="52" Tier="8" TankType="MT" Premium="1" icon="T26_E4_SuperPershing" Active="True" compDescr="13345">T26E4 SuperPershing</Tank>
+		<Tank Country="2" Code="54" Tier="10" TankType="TD" Premium="0" icon="T110E3" Active="True" compDescr="13857">T110E3</Tank>
+		<Tank Country="2" Code="55" Tier="10" TankType="MT" Premium="0" icon="M48A1" Active="True" compDescr="14113">M48A1 Patton</Tank>
+		<Tank Country="2" Code="57" Tier="8" TankType="MT" Premium="0" icon="T69" Active="True" compDescr="14625">T69</Tank>
+		<Tank Country="2" Code="58" Tier="10" TankType="HT" Premium="0" icon="T57_58" Active="True" compDescr="14881">T57 Heavy Tank</Tank>
+		<Tank Country="2" Code="59" Tier="6" TankType="LT" Premium="0" icon="T21" Active="True" compDescr="15137">T21</Tank>
+		<Tank Country="2" Code="60" Tier="9" TankType="MT" Premium="0" icon="T54E1" Active="True" compDescr="15393">T54E1</Tank>
+		<Tank Country="2" Code="61" Tier="7" TankType="LT" Premium="0" icon="T71" Active="True" compDescr="15649">T71</Tank>
+		<Tank Country="2" Code="62" Tier="10" TankType="MT" Premium="1" icon="M60" Active="True" compDescr="15905">M60</Tank>
+		<Tank Country="2" Code="63" Tier="9" TankType="SPG" Premium="0" icon="M53_55" Active="True" compDescr="16161">M53/M55</Tank>
+		<Tank Country="2" Code="64" Tier="6" TankType="SPG" Premium="0" icon="M44" Active="True" compDescr="16417">M44</Tank>
+		<Tank Country="2" Code="201" Tier="2" TankType="LT" Premium="1" icon="T2_lt" Active="True" compDescr="51489">T2 Light Tank</Tank>
+		<Tank Country="2" Code="202" Tier="5" TankType="MT" Premium="1" icon="Ram-II" Active="True" compDescr="51745">Ram II</Tank>
+		<Tank Country="2" Code="203" Tier="3" TankType="LT" Premium="1" icon="MTLS-1G14" Active="True" compDescr="52001">MTLS-1G14</Tank>
+		<Tank Country="2" Code="204" Tier="5" TankType="MT" Premium="1" icon="M4A2E4" Active="True" compDescr="52257">M4A2E4 Sherman</Tank>
+		<Tank Country="2" Code="205" Tier="8" TankType="HT" Premium="1" icon="M6A2E1" Active="True" compDescr="52513">M6A2E1</Tank>
+		<Tank Country="2" Code="206" Tier="3" TankType="LT" Premium="1" icon="M22_Locust" Active="True" compDescr="52769">M22 Locust</Tank>
+		<Tank Country="2" Code="209" Tier="2" TankType="LT" Premium="1" icon="T1_E6" Active="True" compDescr="53537">T1E6</Tank>
+		<Tank Country="2" Code="211" Tier="3" TankType="SPG" Premium="1" icon="Sexton_I" Active="False" compDescr="54049">Sexton_I</Tank>
+		<Tank Country="2" Code="212" Tier="6" TankType="MT" Premium="0" icon="M4A3E8_Sherman_training" Active="False" compDescr="54305">M4A3E8 Sherman</Tank>
+		<Tank Country="2" Code="215" Tier="2" TankType="LT" Premium="1" icon="T7_Combat_Car" Active="True" compDescr="55073">T7 Combat Car</Tank>
+		<Tank Country="2" Code="218" Tier="10" TankType="MT" Premium="1" icon="T95_E6" Active="False" compDescr="55841">T95E6</Tank>
+		<Tank Country="5" Code="0" Tier="1" TankType="MT" Premium="0" icon="GB01_Medium_Mark_I" Active="True" compDescr="81">Vickers Medium Mk. I</Tank>
+		<Tank Country="5" Code="1" Tier="2" TankType="MT" Premium="0" icon="GB05_Vickers_Medium_Mk_II" Active="True" compDescr="337">Vickers Medium Mk. II</Tank>
+		<Tank Country="5" Code="3" Tier="4" TankType="MT" Premium="0" icon="GB07_Matilda" Active="True" compDescr="849">Matilda</Tank>
+		<Tank Country="5" Code="4" Tier="6" TankType="MT" Premium="0" icon="GB21_Cromwell" Active="True" compDescr="1105">Cromwell</Tank>
+		<Tank Country="5" Code="8" Tier="5" TankType="LT" Premium="0" icon="GB20_Crusader" Active="True" compDescr="2129">Crusader</Tank>
+		<Tank Country="5" Code="9" Tier="3" TankType="MT" Premium="0" icon="GB06_Vickers_Medium_Mk_III" Active="True" compDescr="2385">Vickers Medium Mk. III</Tank>
+		<Tank Country="5" Code="11" Tier="5" TankType="HT" Premium="0" icon="GB08_Churchill_I" Active="True" compDescr="2897">Churchill I</Tank>
+		<Tank Country="5" Code="12" Tier="7" TankType="HT" Premium="0" icon="GB10_Black_Prince" Active="True" compDescr="3153">Black Prince</Tank>
+		<Tank Country="5" Code="13" Tier="3" TankType="SPG" Premium="0" icon="GB27_Sexton" Active="True" compDescr="3409">Sexton II</Tank>
+		<Tank Country="5" Code="15" Tier="8" TankType="HT" Premium="0" icon="GB11_Caernarvon" Active="True" compDescr="3921">Caernarvon</Tank>
+		<Tank Country="5" Code="17" Tier="9" TankType="HT" Premium="0" icon="GB12_Conqueror" Active="True" compDescr="4433">Conqueror</Tank>
+		<Tank Country="5" Code="18" Tier="6" TankType="HT" Premium="0" icon="GB09_Churchill_VII" Active="True" compDescr="4689">Churchill VII</Tank>
+		<Tank Country="5" Code="19" Tier="4" TankType="LT" Premium="0" icon="GB04_Valentine" Active="True" compDescr="4945">Valentine</Tank>
+		<Tank Country="5" Code="20" Tier="2" TankType="LT" Premium="0" icon="GB03_Cruiser_Mk_I" Active="True" compDescr="5201">Cruiser Mk. I</Tank>
+		<Tank Country="5" Code="21" Tier="7" TankType="MT" Premium="0" icon="GB22_Comet" Active="True" compDescr="5457">Comet</Tank>
+		<Tank Country="5" Code="22" Tier="9" TankType="MT" Premium="0" icon="GB24_Centurion_Mk3" Active="True" compDescr="5713">Centurion Mk. 7/1</Tank>
+		<Tank Country="5" Code="23" Tier="8" TankType="MT" Premium="0" icon="GB23_Centurion" Active="True" compDescr="5969">Centurion Mk. I</Tank>
+		<Tank Country="5" Code="24" Tier="10" TankType="HT" Premium="0" icon="GB13_FV215b" Active="True" compDescr="6225">FV215b</Tank>
+		<Tank Country="5" Code="25" Tier="4" TankType="LT" Premium="0" icon="GB60_Covenanter" Active="True" compDescr="6481">Covenanter</Tank>
+		<Tank Country="5" Code="27" Tier="3" TankType="LT" Premium="0" icon="GB69_Cruiser_Mk_II" Active="True" compDescr="6993">Cruiser Mk. II</Tank>
+		<Tank Country="5" Code="28" Tier="10" TankType="MT" Premium="0" icon="GB70_FV4202_105" Active="True" compDescr="7249">FV4202</Tank>
+		<Tank Country="5" Code="29" Tier="3" TankType="LT" Premium="0" icon="GB59_Cruiser_Mk_IV" Active="True" compDescr="7505">Cruiser Mk. IV</Tank>
+		<Tank Country="5" Code="30" Tier="2" TankType="LT" Premium="0" icon="GB58_Cruiser_Mk_III" Active="True" compDescr="7761">Cruiser Mk. III</Tank>
+		<Tank Country="5" Code="31" Tier="3" TankType="TD" Premium="0" icon="GB42_Valentine_AT" Active="True" compDescr="8017">Valentine AT</Tank>
+		<Tank Country="5" Code="32" Tier="2" TankType="TD" Premium="0" icon="GB39_Universal_CarrierQF2" Active="True" compDescr="8273">Universal Carrier 2-pdr</Tank>
+		<Tank Country="5" Code="33" Tier="8" TankType="TD" Premium="0" icon="GB72_AT15" Active="True" compDescr="8529">AT 15</Tank>
+		<Tank Country="5" Code="34" Tier="5" TankType="TD" Premium="0" icon="GB73_AT2" Active="True" compDescr="8785">AT 2</Tank>
+		<Tank Country="5" Code="35" Tier="4" TankType="TD" Premium="0" icon="GB57_Alecto" Active="True" compDescr="9041">Alecto</Tank>
+		<Tank Country="5" Code="36" Tier="10" TankType="TD" Premium="0" icon="GB48_FV215b_183" Active="True" compDescr="9297">FV215b (183)</Tank>
+		<Tank Country="5" Code="37" Tier="6" TankType="TD" Premium="0" icon="GB74_AT8" Active="True" compDescr="9553">AT 8</Tank>
+		<Tank Country="5" Code="38" Tier="6" TankType="TD" Premium="0" icon="GB40_Gun_Carrier_Churchill" Active="True" compDescr="9809">Churchill Gun Carrier</Tank>
+		<Tank Country="5" Code="39" Tier="7" TankType="TD" Premium="0" icon="GB75_AT7" Active="True" compDescr="10065">AT 7</Tank>
+		<Tank Country="5" Code="41" Tier="2" TankType="SPG" Premium="0" icon="GB25_Loyd_Carrier" Active="True" compDescr="10577">Loyd Gun Carriage</Tank>
+		<Tank Country="5" Code="42" Tier="4" TankType="SPG" Premium="0" icon="GB26_Birch_Gun" Active="True" compDescr="10833">Birch Gun</Tank>
+		<Tank Country="5" Code="43" Tier="5" TankType="SPG" Premium="0" icon="GB28_Bishop" Active="True" compDescr="11089">Bishop</Tank>
+		<Tank Country="5" Code="44" Tier="7" TankType="SPG" Premium="0" icon="GB29_Crusader_5inch" Active="True" compDescr="11345">Crusader 5.5-in. SP</Tank>
+		<Tank Country="5" Code="45" Tier="9" TankType="SPG" Premium="0" icon="GB30_FV3805" Active="True" compDescr="11601">FV3805</Tank>
+		<Tank Country="5" Code="46" Tier="6" TankType="SPG" Premium="0" icon="GB77_FV304" Active="True" compDescr="11857">FV304</Tank>
+		<Tank Country="5" Code="47" Tier="8" TankType="SPG" Premium="0" icon="GB79_FV206" Active="True" compDescr="12113">FV207</Tank>
+		<Tank Country="5" Code="48" Tier="10" TankType="SPG" Premium="0" icon="GB31_Conqueror_Gun" Active="True" compDescr="12369">Conqueror Gun Carriage</Tank>
+		<Tank Country="5" Code="205" Tier="9" TankType="TD" Premium="0" icon="GB32_Tortoise" Active="True" compDescr="52561">Tortoise</Tank>
+		<Tank Country="5" Code="209" Tier="5" TankType="MT" Premium="1" icon="GB68_Matilda_Black_Prince" Active="True" compDescr="53585">Matilda Black Prince</Tank>
+		<Tank Country="5" Code="210" Tier="6" TankType="HT" Premium="1" icon="GB63_TOG_II" Active="True" compDescr="53841">TOG II*</Tank>
+		<Tank Country="5" Code="211" Tier="7" TankType="TD" Premium="1" icon="GB71_AT_15A" Active="True" compDescr="54097">AT 15A</Tank>
+		<Tank Country="5" Code="212" Tier="5" TankType="HT" Premium="1" icon="GB51_Excelsior" Active="True" compDescr="54353">Excelsior</Tank>
+		<Tank Country="5" Code="213" Tier="3" TankType="SPG" Premium="1" icon="GB78_Sexton_I" Active="True" compDescr="54609">Sexton I</Tank>
+		<Tank Country="5" Code="214" Tier="2" TankType="LT" Premium="1" icon="GB76_Mk_VIC" Active="True" compDescr="54865">Light Mk. VIC</Tank>
+		<Tank Country="6" Code="1" Tier="2" TankType="MT" Premium="0" icon="Chi_Ni" Active="True" compDescr="353">Chi-Ni</Tank>
+		<Tank Country="6" Code="2" Tier="1" TankType="LT" Premium="0" icon="NC27" Active="True" compDescr="609">Renault Otsu</Tank>
+		<Tank Country="6" Code="3" Tier="2" TankType="LT" Premium="0" icon="Ha_Go" Active="True" compDescr="865">Type 95 Ha-Go</Tank>
+		<Tank Country="6" Code="4" Tier="7" TankType="MT" Premium="0" icon="Chi_Ri" Active="True" compDescr="1121">Type 5 Chi-Ri</Tank>
+		<Tank Country="6" Code="5" Tier="5" TankType="MT" Premium="0" icon="Chi_Nu" Active="True" compDescr="1377">Type 3 Chi-Nu</Tank>
+		<Tank Country="6" Code="6" Tier="4" TankType="MT" Premium="0" icon="Chi_He" Active="True" compDescr="1633">Type 1 Chi-He</Tank>
+		<Tank Country="6" Code="7" Tier="6" TankType="MT" Premium="0" icon="Chi_To" Active="True" compDescr="1889">Type 4 Chi-To</Tank>
+		<Tank Country="6" Code="8" Tier="3" TankType="MT" Premium="0" icon="Chi_Ha" Active="True" compDescr="2145">Type 97 Chi-Ha</Tank>
+		<Tank Country="6" Code="9" Tier="3" TankType="LT" Premium="0" icon="Ke_Ni" Active="True" compDescr="2401">Type 98 Ke-Ni</Tank>
+		<Tank Country="6" Code="10" Tier="8" TankType="MT" Premium="0" icon="STA_1" Active="True" compDescr="2657">STA-1</Tank>
+		<Tank Country="6" Code="11" Tier="4" TankType="LT" Premium="0" icon="Ke_Ho" Active="True" compDescr="2913">Type 5 Ke-Ho</Tank>
+		<Tank Country="6" Code="13" Tier="9" TankType="MT" Premium="0" icon="Type_61" Active="True" compDescr="3425">Type 61</Tank>
+		<Tank Country="6" Code="14" Tier="10" TankType="MT" Premium="0" icon="ST_B1" Active="True" compDescr="3681">STB-1</Tank>
+		<Tank Country="6" Code="201" Tier="5" TankType="MT" Premium="1" icon="Chi_Nu_Kai" Active="True" compDescr="51553">Type 3 Chi-Nu Kai</Tank>
+		<Tank Country="6" Code="202" Tier="3" TankType="LT" Premium="1" icon="Ke_Ni_B" Active="False" compDescr="51809">Type 98 Ke-Ni Otsu</Tank>
+  </Tanks>
+  <Achievements>
+    <Achievement Order="0" Key="MOUSETRAP" Name="Mouse Trap" Value="10" Tanks="1_27"/>
+    <Achievement Order="1" Key="HUNTER" Name="Hunter" Value="100" Tanks="1_15|1_31|1_5|1_225|1_33|1_2|1_42|1_20|1_212|1_35|1_60|1_45|1_216|1_56|1_58|1_57|1_34"/>
+    <Achievement Order="2" Key="LIONOSI" Name="The Lion of Sinai" Value="100" Tanks="0_2|0_21|0_24|0_28|0_29|0_32|0_34|0_36|0_45|0_53|0_56"/>
+    <Achievement Order="3" Key="PATTONVAL" Name="Valley of Pattons" Value="100" Tanks="2_35|2_55"/>
+  </Achievements>
+  <AppSettings>
+    <Setting Key="AchievementReportVisible" Value="false" />
+  </AppSettings>
+</WorldOfTanks>

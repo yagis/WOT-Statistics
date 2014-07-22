@@ -4,7 +4,6 @@ Version v2.5
 
 
 ### About
-
 * Author: Marius Czyz aka Phalynx
 * Contact: marius.czyz@gmail.com
 * Website: http://www.vbaddict.net
@@ -19,6 +18,7 @@ WOT Statistics will update after every battle showing you the results. It also h
 NJSaaiman created WOT Statistics with the help of vBAddict's Dossier-2-JSON Project. Since early 2014 he has no more time for the further development. NJSaaiman talked with Phalynx about this topic and Phalynx offered him to take care about this Application. In April 2014, Phalynx released the WOT Statistics v2.5 to the public.
 
 To speed up development Phalynx released the source code to the public in July 2014.
+
 
 ### Requirements
 WOT Statistics is build with C#.NET 4.0 on base of DevExpress WinForms 14.1

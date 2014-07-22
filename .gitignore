@@ -3,16 +3,17 @@ Solution/_Release/
 Solution/Supporting
 Solution/WOT.Stats/Images/Tanks/*.png
 Solution/packages/*
+Solution/WOT.DBViewer/Packages
 Release
 Debug
+
+.gitignore
 
 *.ps1
 *.licx
 *Copy.*
 *.exe
-*.dll
-*.png
-*.ico
+
 
 *.nupkg
 .nuget
@@ -56,3 +57,4 @@ ipch/
 
 
 
+Solution/WOT.Stats/python/python27.dll

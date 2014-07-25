@@ -42,7 +42,7 @@ namespace WOTStatistics.Core
             {
                 return Storage;
             }
-
+			
             Storage.rDAMAGE = WN7_Damage(ratingStruct);
             Storage.rFRAG = WN7_Frags(ratingStruct);
             Storage.rSPOT = WN7_Spotted(ratingStruct);
@@ -92,15 +92,29 @@ namespace WOTStatistics.Core
         private static double WN7_WinRate(RatingStructure ratingStruct)
         {
             double winRate = ratingStruct.gWinRate;
-            if (ratingStruct.gWinRate == 0 & ratingStruct.winRate > 0)
-            {
-                ratingStruct.gWinRate = ratingStruct.winRate;
-            }
 
+			// TODO: Added by BadButton 2014-06-25, bugfix winrate-part for wn7 formula, to be chacked by Phalynx
+			if (ratingStruct.battlesCount == 1)
+				winRate = 50;
+			return (((185 / (0.17 + Math.Exp((winRate - 35) * -0.134))) - 500) * 0.45);
 
-            return (((185 / (0.17 + Math.Exp(((ratingStruct.gWinRate * 100) - 35) * -0.134))) - 500) * 0.45);
-            //return ((185 / (0.17 + Math.Pow(Math.Exp(1), ((ratingStruct.winRate - 35) * -0.134)))) - 500) * 0.45;
-        }
+			// TODO: Removed by BadButton, if above work, just remove this
+			//if (ratingStruct.gWinRate == 0 & ratingStruct.winRate > 0)
+			//{
+			//    ratingStruct.gWinRate = ratingStruct.winRate;
+			//}
+			//return (((185 / (0.17 + Math.Exp(((ratingStruct.gWinRate * 100) - 35) * -0.134))) - 500) * 0.45);
+			////return ((185 / (0.17 + Math.Pow(Math.Exp(1), ((ratingStruct.winRate - 35) * -0.134)))) - 500) * 0.45;
+		}
+
+		// TODO: Added by BadButton 2014-06-25, new method to return correct winrate factor used for wn7 caculation
+		private static double WN7_WinRateTooltipPrefix(RatingStructure ratingStruct)
+		{
+			double winRate = ratingStruct.gWinRate;
+			if (ratingStruct.battlesCount == 1)
+				winRate = 50;
+			return winRate;
+		}
 
         private static double WN7_TierMalus(RatingStructure ratingStruct)
         {
@@ -167,8 +181,9 @@ namespace WOTStatistics.Core
             s[5] = "0";
             i.Add(string.Join("|", s));
 
-            s[0] = Translations.TranslationGet("STR_WINRATE", "de", "Win Percentage");
-            s[1] = FormatNumberToString(ratingStruct.winRate, 0);
+			s[0] = Translations.TranslationGet("STR_WINRATE", "de", "Win Percentage");
+			// TODO: Added by BadButton 2014-06-25 - Added method for getting correct win rate used for calculation, to be chacked by Phalynx
+			s[1] = FormatNumberToString(WN7_WinRateTooltipPrefix(ratingStruct), 0);
             s[2] = FormatNumberToString(winRateFormula, 2);
             s[3] = FormatNumberToString(Math.Abs(((winRateFormula / iTotal) - 1) * 100), 2);
             s[4] = FormatNumberToString(Math.Abs(((winRateFormula / iTotal)) * 100), 2);

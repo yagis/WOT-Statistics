@@ -4,7 +4,8 @@ Version v2.5
 
 
 ### About
-* Author: Marius Czyz aka Phalynx
+* Author v2.5: Marius Czyz aka Phalynx
+* Author v2.x: Nick Saaiman
 * Contact: marius.czyz@gmail.com
 * Website: http://www.vbaddict.net
 * Wiki: http://wiki.vbaddict.net

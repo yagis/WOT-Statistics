@@ -556,7 +556,7 @@
         <Item LanID="ENG">Enable uploading to vBAddict.net</Item>
         <Item LanID="DE">Hochladen zu vBAddict.net aktivieren</Item>
         <Item LanID="RU">Предоставить файл dossier, для анализа и сравнения результатов</Item>
-        <Item LanID="PL">Wyślij dane na stronę gromadzącą statystyki graczy w celu porównania wyników</Item>
+        <Item LanID="PL">Wyślij dane na stronę gromadzącą statystyki graczy (vBAddict.net)</Item>
         <Item LanID="SR">Pošalji Dosije fajl ka World of Tanks Performance Analzyer and Statistics Site</Item>
         <Item LanID="FI">Lähetä dossier tiedosto World of Tanks suorituskyky analysointi ja tilasto sivulle </Item>
         <Item LanID="KR">Dossier 파일을 능률 분석 및 통계 사이트로 전송</Item>
@@ -588,7 +588,7 @@
         <Item LanID="ENG">Submit Dossier file and Battle Results to vBAddict.net</Item>
         <Item LanID="DE">Dossier-Datei und Spielergebnisse an vBAddict.net übermitteln</Item>
         <Item LanID="RU">Submit Dossier file and Battle Results to vBAddict.net</Item>
-        <Item LanID="PL">Submit Dossier file and Battle Results to vBAddict.net</Item>
+        <Item LanID="PL">Wyślij plik Dossier oraz Statystyki Bitew do vBAddict.net</Item>
         <Item LanID="SR">Submit Dossier file and Battle Results to vBAddict.net</Item>
         <Item LanID="FI">Submit Dossier file and Battle Results to vBAddict.net</Item>
         <Item LanID="KR">Submit Dossier file and Battle Results to vBAddict.net</Item>
@@ -604,7 +604,7 @@
         <Item LanID="ENG">Submit Dossier file, Battle Results and Replays to vBAddict.net</Item>
         <Item LanID="DE">Dossier-Datei, Spielergebnisse und Replays an vBAddict.net übermitteln</Item>
         <Item LanID="RU">Submit Dossier file, Battle Results and Replays to vBAddict.net</Item>
-        <Item LanID="PL">Submit Dossier file, Battle Results and Replays to vBAddict.net</Item>
+        <Item LanID="PL">Wyślij plik Dossier, Statystyki Bitew oraz Powtórki do vBAddict.net</Item>
         <Item LanID="SR">Submit Dossier file, Battle Results and Replays to vBAddict.net</Item>
         <Item LanID="FI">Submit Dossier file, Battle Results and Replays to vBAddict.net</Item>
         <Item LanID="KR">Submit Dossier file, Battle Results and Replays to vBAddict.net</Item>
@@ -2460,7 +2460,7 @@
         <Item LanID="ENG">Valley of Pattons</Item>
         <Item LanID="DE">Valley of Pattons</Item>
         <Item LanID="RU">Долина Паттонов</Item>
-        <Item LanID="PL">Aleja Pattonów</Item>
+        <Item LanID="PL">Dolina Pattonów</Item>
         <Item LanID="SR">Patton Valley</Item>
         <Item LanID="FI">Pattonien laakso</Item>
         <Item LanID="KR">패튼의 골짜기</Item>
@@ -3341,7 +3341,7 @@
         <Item LanID="SR">Get Support</Item>
         <Item LanID="FR">Support Technique</Item>
         <Item LanID="PL">Wsparcie Techniczne</Item>
-		<Item LanID="IT">Get Support</Item>
+	<Item LanID="IT">Get Support</Item>
         <Item LanID="PT">Pedir Ajuda</Item>
         <Item LanID="CZ">Podpora</Item>
       </Field>
